@@ -1,0 +1,97 @@
+# Laravel specific
+/vendor
+/node_modules
+/storage/*.key
+/public/storage
+Homestead.json
+Homestead.yaml
+.env
+
+# Ignore the /public/editorImage directory
+/public/editorImage
+
+# Composer
+/vendor
+/composer.phar
+/composer.lock
+/backup-*.zip
+
+# PHPUnit
+/phpunit.xml
+
+# IDE helper
+/_ide_helper.php
+/_ide_helper_models.php
+/.phpstorm.meta.php
+
+# Laravel Mix
+/public/css/
+/public/js/
+/public/mix-manifest.json
+/public/hot
+
+# Laravel Dusk
+/storage/screenshots/
+/storage/app/dusk/
+/storage/app/browser/
+
+# Laravel Passport
+/storage/oauth-private.key
+/storage/oauth-public.key
+
+# Laravel Echo
+/broadcasting/
+
+# Laravel Horizon
+/storage/horizon/
+/horizon
+.nova/
+
+# Vagrant
+Homestead.yaml
+Homestead.json
+Homestead.lock
+
+# Laravel Telescope
+/storage/telescope
+/telescope
+
+# Laravel Tinker
+/vendor/psy/psysh
+.psysh.php
+
+# Laravel Valet
+/.valet
+/.vagrant
+.vagrant
+
+# Laravel Forge
+/.forge
+/forge-server
+
+# Laravel Spark
+/.spark
+spark-license.txt
+
+# Rocketeer
+/.rocketeer
+
+# PHPUnit
+/phpunit.xml
+
+# Composer
+/vendor
+
+# Sublime Text
+/*.sublime-project
+/*.sublime-workspace
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs and databases
+/storage/logs/
+/storage/db-dumps/
+/database/*.sqlite
+/public/storage
