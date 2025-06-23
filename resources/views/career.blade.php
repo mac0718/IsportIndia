@@ -4,6 +4,8 @@
 @endsection
 
 @section('meta_tags')
+
+
 @php
 $url = isset($res) ? url()->current() : 'https://isportindia.com/about';
 $image = isset($res) ? getImageUrl($res->img) : 'https://isportindia.com/images/OG.jpg';
